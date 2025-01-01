@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<style>
+    button {
+        transition-duration: 0.9s;
+    }
+
+    button:hover {
+        transition-duration: 1.9s;
+        box-shadow: 2px 2px 12px gray;
+        transform: scale(0.9);
+    }
+
+    img {
+        transition-duration: 0.6s;
+    }
+
+    img:hover {
+        filter: grayscale(55%);
+    }
+
+    li {
+        transition-duration: 0.5s;
+    }
+
+    li:hover {
+        border-bottom: 2px dotted black;
+        transition-duration: 0.4s;
+    }
+</style>
+
+<body>
+    <header class="header pb-[40px] lg:pb-[50px]">
+        <nav class="px-[30px] pt-[25px] flex items-center justify-between">
+            <img src="./logo.png" alt="">
+            <ul class="hidden lg:flex gap-[20px] font-semibold">
+                <li>About Us</li>
+                <li class="text-[#FF3F3A]">Courses</li>
+                <li>Events</li>
+                <li>Blog</li>
+                <li>Contacts</li>
+            </ul>
+            <div class="flex gap-[50px]">
+                <button
+                    class="rounded-sm px-[35px] font-semibold text-white py-[10px] bg-gradient-to-tr from-[#FF3F3A] to-[#F75E05]">Get
+                    consultation</button>
+                <div class="hidden lg:flex items-center">
+                    <img src="./Profile.png" alt="">
+                    <p>Log in / Register</p>
+                </div>
+            </div>
+        </nav>
+        <section class="text-center mt-[50px] px-[10px]">
+            <p class="text-[#FF3F3A] text-[20px] font-semibold">Course</p>
+            <h1 class="text-[50px] font-bold">User Experience. Principles of Human-Centered Design</h1>
+        </section>
+    </header>
+    <main class="p-[20px]">
+        <section class=" lg:flex gap-[40px] lg:ml-[30px]">
+            <section class="">
+                <div class="hidden lg:block w-[600px]">
+                    <h1 class="text-[50px] font-bold mb-[30px]">About the course</h1>
+                    <p class="text-[#424551] font-mono">Bibendum vulputate adipiscing venenatis at est, a eu tincidunt.
+                        Leo aenean congue in sagittis, felis
+                        maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero
+                        est
+                        tempus sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim montes,
+                        pretium,
+                        egestas molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc
+                        tincidunt tortor, mi nulla pellentesque
+                    </p>
+                </div>
+                <div class="hidden lg:block">
+                    <h2 class="text-[50px] font-bold mb-[10px]">You will learn:</h2>
+                    <p class="mt-[5px]">A fermentum in morbi pretium aliquam adipiscing donec tempus.</p>
+                    <p class="mt-[5px]">Vulputate placerat amet pulvinar lorem nisl.</p>
+                    <p class="mt-[5px]">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</p>
+                    <p class="mt-[5px]">Etiam duis lobortis in fames ultrices commodo nibh.</p>
+                    <p class="mt-[5px]">Fringilla in nec risus congue venenatis pretium posuere nec.</p>
+                    <p class="mt-[5px]">Cursus eu pretium, vulputate tempus quam massa sed at.</p>
+                </div>
+            </section>
+            <div class=" p-[30px] shadow-xl flex flex-col">
+                <h2 class=" text-[20px] font-semibold">DATES</h2>
+                <h1 class="text-[#FF3F3A] text-[34px] font-bold">Sept 7 – Nov 2</h1>
+                <p class="text-[#787A80] font-mono">Metus turpis sit lorem lacus, in elit tellus lacus.</p>
+                <h2 class="text-[20px] font-semibold mt-[25px]">DURATION</h2>
+                <h1 class="text-[#FF3F3A] text-[34px] font-bold">2 months – 8 lessons</h1>
+                <p class="text-[#787A80] font-mono">Rhoncus pellentesque auctor auctor orci vulputate faucibus quis ut.
+                </p>
+                <h2 class=" text-[20px] font-semibold mt-[25px]">PRICE</h2>
+                <h1 class="text-[#FF3F3A] text-[34px] font-bold">$120 per month</h1>
+                <p class="text-[#787A80] font-mono">Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris
+                    quam ac elit tristique
+                    dis.</p>
+                <button
+                    class=" font-semibold py-[10px] mt-[30px] text-[20px] text-center text-white rounded-sm  bg-gradient-to-tr from-[#FF3F3A] to-[#F75E05]">Join
+                    the course</button>
+            </div>
+        </section>
+        <section class="sec2 lg:mt-[50px] lg:flex lg:gap-[50px] ">
+            <img class="ml-[50px] lg:w-[430px]" src="./curator-image.png" alt="">
+            <div class="lg:mt-[15px]">
+                <h2 class="text-[25px] font-semibold">Course curator</h2>
+                <h1 class="text-[50px] font-bold">Cody Fisher</h1>
+                <p class="text-[20px] text-[#787A80]">Senior UX designer in IT Product Company</p>
+                <div class="mt-[40px] mb-[30px]">
+                    <div class="flex gap-[10px]"><i class="fa-regular fa-star text-[#FF3F3A] text-[22px]"></i>
+                        <p class="text-[20px] font-semibold"> 4.9 rate </p>
+                    </div>
+                    <div class="flex gap-[12px]"><i class="fa-regular fa-circle-play text-[#FF3F3A] text-[22px]"></i>
+                        <p class="text-[20px] font-semibold"> 4 courses </p>
+                    </div>
+                    <div class="flex gap-[13px]"><i class="fa-solid fa-user text-[#FF3F3A] text-[22px]"></i>
+                        <p class="text-[20px] font-semibold"> 350 students </p>
+                    </div>
+                </div>
+                <p class="text-[#424551] text-[18px] ">Mattis adipiscing aliquam eu proin metus a iaculis faucibus.
+                    Tempus curabitur venenatis, vulputate
+                    venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit
+                    morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed
+                    pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam
+                    tristique sollicitudin interdum quam.
+                </p>
+                <div class="mt-[20px] text-[30px] flex gap-[20px]">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-behance"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </section>
+        <section class="pb-[30px] lg:text-center lg:mt-[50px] ">
+            <h2 class="text-[30px]">Main steps</h2>
+            <h1 class="font-bold text-[40px]">Online learning process</h1>
+            <div class="flex gap-[20px] flex-col lg:flex-row lg:mt-[30px]">
+                <div class="flex">
+                    <article>
+                        <b class="font-bold text-[#D7DADD] text-[50px]">01</b>
+                        <h2 class="text-[25px] font-bold">Watching online video </h2>
+                        <p>Adipisicing esse aliqua aliquip qui amet. Aute eiusmod dolore dolore et ad et veniam ad
+                            deserunt.
+                        </p>
+                    </article>
+                    <article>
+                        <b class="font-bold text-[#D7DADD] text-[50px]">02</b>
+                        <h2 class="text-[25px] font-bold">Passing test</h2>
+                        <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.
+                        </p>
+                    </article>
+                </div>
+                <div class="flex">
+                    <article>
+                        <b class="font-bold text-[#D7DADD] text-[50px]">03</b>
+                        <h2 class="text-[25px] font-bold">Curator’s feedback</h2>
+                        <p>Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim ad
+                            tempor
+                            est ea.</p>
+                    </article>
+                    <article>
+                        <b class="font-bold text-[#FF3F3A] text-[50px]">04</b>
+                        <h2 class="text-[25px] font-bold">Corrections if needed</h2>
+                        <p>Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident
+                            ea
+                            ad.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#FEDECE] p-[10px] lg:text-center">
+            <h1 class="text-[30px] font-semibold">20% discount for early birds!</h1>
+            <div class="bg-[#FEDECE] py-[20px] px-[10px] ">
+                <div class="flex flex-col gap-[20px] lg:flex-row ">
+                    <div class="gap-[30px] flex items-center"> <label for="po3" class="text-[20px] font-semibold">Full
+                            name</label>
+                        <input type="text" id="po3" placeholder="Your full name"
+                            class="px-[20px] py-[10px] rounded-lg text-[20px]  text-black border-none bg-white">
+                    </div>
+                    <div class="gap-[30px] flex items-center"> <label for="po2"
+                            class="text-[20px] font-semibold">Email</label>
+                        <input type="email" id="po2" placeholder="Your working email"
+                            class="px-[20px] py-[10px] rounded-lg text-[20px] text-black border-none bg-white">
+                    </div>
+                    <div class="gap-[30px] flex items-center"> <label for="po1"
+                            class="text-[20px] font-semibold">Phone</label>
+                        <input type="number" id="po1" placeholder="Your phone number"
+                            class="px-[20px] py-[10px] rounded-lg text-[20px] text-black border-none bg-white">
+                    </div>
+                </div>
+                <div class="flex  gap-[20px] mt-[20px]  mb-[20px] lg: w-[700px] lg:font-bold lg:ml-[470px] ">
+                    <div class="flex flex-col items-center text-[20px]">
+                        <p>06</p>
+                        <p>Days</p>
+                    </div>
+                    <div class="flex flex-col items-center text-[20px]">
+                        <p>18</p>
+                        <p>Hours</p>
+                    </div>
+                    <div class="flex flex-col items-center text-[20px]">
+                        <p>24</p>
+                        <p>Mins</p>
+                    </div>
+                    <div class="flex flex-col items-center text-[20px]">
+                        <p>12</p>
+                        <p>Sec</p>
+                    </div>
+                </div>
+                <button
+                    class="bg-gradient-to-tr px-[40px] py-[11px] text-white text-[20px] rounded-md from-[#FF3F3A] to-[#F75E05]">Join
+                    the course</button>
+            </div>
+        </section>
+        <section class="text-center mt-[30px] lg:text-start lg:flex">
+            <div>
+                <p class="text-[21px] font-semibold">For whom?</p>
+                <h1 class="text-[35px] font-bold lg:text-[45px]">Who will benefit from the course:</h1>
+            </div>
+            <div class="lg:mt-[20px] tetx-[15px]">
+                <p>Specialists with more than 1 year of active work experience</p>
+                <p>Mobile app designers who want to improve their skills in solving business problems, creating and
+                    testing human-centered interfaces
+                </p>
+                <p>Professional designers who want to feel more confident in UX</p>
+                <p>Specialists who would like to structure their knowledge, fill in the gaps</p>
+            </div>
+        </section>
+        <section class="mt-[50px] lg:flex">
+            <div class="flex flex-col gap-[20px] lg:gap-[20px]">
+                <div> <span class="text-[#FF3F3A]"> - Lesson 1. </span> <span class="">Aliquet lectus urna viverra
+                        in
+                        odio.</span>
+                    <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare.
+                        Lacus
+                        facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur
+                        faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.
+                    </p>
+                </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 2.</span> <span>Orci commodo, viverra orci mollis ut
+                        euismod.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 3.</span> <span>Sagittis vitae facilisi rutrum amet mauris
+                        quisque vel.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 4.</span> <span>In id dolor quis nunc, urna hendrerit
+                        pharetra.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 5.</span> <span>Est, ut tempus id rutrum
+                        facilisi.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 6.</span> <span>Amet nec in
+                        pellentesque.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 7.</span> <span>Massa vel arcu mauris, id
+                        vel rhoncus mattis quis.</span> </div>
+                <div> <span class="text-[#FF3F3A]"> + Lesson 8.</span> <span>Neque, cursus sapien
+                        nullam id.</span> </div>
+            </div>
+            <img class="w-[400px]" src="./illustration (2).png" alt="">
+        </section>
+        <section class="bg-[#F4F5F6]">
+            <div class="text-center mt-[50px] pb-[50px]">
+                <p class="text-[23px] ">TESTIMONIALS</p>
+                <h1 class="text-[35px] font-bold">What our students say</h1>
+                <div class="px-[30px] py-[30px] bg-white rounded-md lg:w-[800px] lg:m-auto lg:text-start lg:shadow-lg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus
+                        lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare
+                        turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu
+                        diam maecenas diam integer in.
+                    </p>
+                    <img src="./user-profile.png" alt="">
+                </div>
+            </div>
+            <div class="mt-[50px] lg:flex  lg:pb-[100px]">
+                <div>
+                    <img class="lg:w-[480px] lg:ml-[50px] lg:pb-[30px   ]" src="./illustration (3).png" alt="">
+                </div>
+                <div class="mt-[30px] px-[10px] pb-[20px] lg:ml-[50px] ">
+                    <p class="text-[17px]">Leave a request now and get 20% off!</p>
+                    <h1 class="text-[30px] font-semibold">Register for the course</h1>
+                    <div class="flex flex-col lg:mt-[50px]">
+                        <label for="" class="ml-[4px] mb-[7px]">Full Name</label>
+                        <input type="text" placeholder="Your full name" class="px-[10px] py-[7px] rounded-md">
+
+                        <label for="" class="ml-[4px] mb-[7px]">Email</label>
+                        <input type="text" placeholder="Your working email" class="px-[10px] py-[7px] rounded-md">
+
+                        <label for="" class="ml-[4px] mb-[7px]">Phone</label>
+                        <input type="text" placeholder="Your phone number" class="px-[10px] py-[7px] rounded-md">
+                    </div>
+                    <button
+                        class="bg-gradient-to-tr from-[#FF3F3A] to-[#F75E05] px-[30px] py-[9px] rounded-md font-semibold text-white ml-[80px] mt-[20px] hover:scale-[0.6] duration-[0.9s] lg:px-[150px] lg:ml-0">Join
+                        the course</button>
+                </div>
+            </div>
+        </section>
+        <section class="lg: mt-[50px]">
+            <div>
+                <p class="text-[15px] lg:text-[22px]">Check other courses</p>
+                <h1 class="text-[25px] font-semibold lg:font-bold lg:text-[43px]">You may also like</h1>
+            </div>
+            <div class="lg:flex gap-[10px] ">
+                <article class="flex shadow-lg mt-[20px]">
+                    <img class="w-[100px] lg:w-auto" src="./image.png" alt="">
+                    <div class="ml-[20px] mt-[10px]">
+                        <button
+                            class="bg-[#03CEA4] text-white px-[10px] text-[10px] py-[1px] rounded-md lg:px-[40px] lg:text-[25px] lg:font-semibold">Marketing</button>
+                        <h2 class="lg:text-[30px] font-bold">The Ultimate Google Ads Training Course</h2>
+                        <span class="text-[#FF4242] font-bold lg:text-[20px]">$100 | </span> <span
+                            class="text-[#787A80] lg:text-[20px]">by Jerome Bell</span>
+                    </div>
+                </article>
+                <article class="flex shadow-lg mt-[20px]">
+                    <img class="w-[100px] lg:w-auto" src="./11шьп.png" alt="">
+                    <div class="ml-[20px] mt-[10px]">
+                        <button
+                            class="bg-[#03CEA4] text-white px-[10px] text-[10px] py-[1px] rounded-md lg:px-[40px] lg:text-[25px] lg:font-semibold">Marketing</button>
+                        <h2 class="lg:text-[30px] font-bold">Prduct Management Fundamentals</h2>
+                        <span class="text-[#FF4242] font-bold lg:text-[20px]">$100 | </span> <span
+                            class="text-[#787A80] lg:text-[20px]">by Marvin McKinney</span>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer
+        class=" mt-10 lg:flex      justify-around gap-11 bg-gray-900 py-10 px-[90px] ">
+        <div class="w-[60%]  text-gray-400">
+            <img src="./imgo/logo.png" alt="">
+
+            <p class="text-sm mt-10">Createx Online School is a leader in online studying. We have lots of courses and
+                programs from the main market experts. We provide relevant approaches to online learning, internships
+                and employment in the largest companies in the country. </p>
+            <div class="flex  mt-4">
+                <img src="./imgo/Facebook.png" alt="">
+                <img src="./imgo/Twitter.png" alt="">
+
+
+                <img src="./imgo/Subtract.png" alt="">
+                <img src="./imgo/telegram (1).png" alt="">
+                <img src="./imgo/Instagram (1).png" alt="">
+                <img src="./imgo/Linked-In.png" alt="">
+            </div>
+        </div>
+        <div class="w-[20%] text-gray-400">
+            <h1 class="text-xl font-semibold text-white mb-4">Site Map</h1>
+            <ul class="space-y-2 text-sm">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="text-gray-400">
+            <h1 class="text-[20px] font-medium text-white ">COURSES</h1>
+            <p>Marketing
+            <p>
+            <p>Management
+            <p>
+            <p>HR & Recruting
+            <p>
+            <p>Design
+            <p>
+            <p>Development
+            <p>
+        </div>
+        <div class="text-gray-400">
+            <h1 class="text-[20px] font-mono text-white">CONTACT US</h1>
+            <p>(405) 555-0128
+            <p>
+            <p>hello@createx.com
+            <p>
+        </div>
+        <div class="w-[60%] text-gray-400">
+            <h4 class="text-xl mb-4 text-white">Sign up to our newsletter</h4>
+            <div class="flex gap-10">
+                <input type="email" placeholder="Email address"
+                    class="w bg-gray-700 text-white px-4 py-2 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-red-500">
+
+
+            </div>
+            <p>*Subscribe to our newsletter to refrom Createx SEO Agency.</p>
+        </div>
+
+
+        </div>
+
+        <div class="bg-[#292C37]">
+        <p class="text-center text-sm text-gray-400 mt-10">© All rights reserved. Made with ❤️ by Createx Studio</p>
+        </div>
+
+    </footer>
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</html>

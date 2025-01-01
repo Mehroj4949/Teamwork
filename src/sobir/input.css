@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    background-image: url(./background.png);
+    background-size: cover;
+}
+
+.sec2 {
+    background-image: url(./Background\ \(1\).png);
+    background-size: cover;
+}
+.sec3
+{
+    background-image: url(./background\ \(2\).png);
+    background-size: cover;
+
+}
