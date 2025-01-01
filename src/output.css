@@ -759,6 +759,31 @@ video {
   background-color: rgb(255 63 58 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[ur\] {
+  background-color: ur;
+}
+
+.bg-\[\/Users\/boboevmehroj\/Downloads\/background\.png\] {
+  background-color: /Users/boboevmehroj/Downloads/background.png;
+}
+
+.bg-\[\#1E212C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 33 44 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\/Users\/boboevmehroj\/Downloads\/background\.png\)\] {
+  background-image: url(/Users/boboevmehroj/Downloads/background.png);
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -789,12 +814,38 @@ video {
   padding-bottom: 5px;
 }
 
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .pt-\[\] {
   padding-top: ;
 }
 
 .pt-\[140px\] {
   padding-top: 140px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-\[130px\] {
+  padding-top: 130px;
+}
+
+.pt-\[120px\] {
+  padding-top: 120px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
 }
 
 .text-center {
